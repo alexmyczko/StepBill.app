@@ -1,0 +1,136 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "orderFrontFontPanel:",
+	    "about:",
+	    "high_score:",
+	    "modalCancel:",
+	    "modalOk:",
+	    "new_game:",
+	    "pause_game:",
+	    "pref:",
+	    "quit_game:",
+	    "rules:",
+	    "story:",
+	    "warp_level:"
+	);
+	Super = NSObject;
+    };
+    MBAqua = {
+	Actions = (
+	    "about:",
+	    "high_score:",
+	    "modalCancel:",
+	    "modalOk:",
+	    "new_game:",
+	    "pause_game:",
+	    "pref:",
+	    "quit_game:",
+	    "rules:",
+	    "story:",
+	    "warp_level:"
+	);
+	Outlets = (
+	    about,
+	    entry,
+	    game,
+	    highscore,
+	    menu_pause,
+	    rules,
+	    slider_size,
+	    slider_timer,
+	    slider_trans,
+	    story,
+	    text_size,
+	    text_timer,
+	    text_trans,
+	    ui,
+	    view,
+	    warp,
+	    story_tv,
+	    rules_tv
+	);
+	Super = NSObject;
+    };
+    MBBucket = {
+	Actions = (
+	);
+	Outlets = (
+	    network,
+	    ui
+	);
+	Super = NSObject;
+    };
+    MBGame = {
+	Actions = (
+	);
+	Outlets = (
+	    bucket,
+	    horde,
+	    network,
+	    os,
+	    scorelist,
+	    spark,
+	    ui
+	);
+	Super = NSObject;
+    };
+    MBHorde = {
+	Actions = (
+	);
+	Outlets = (
+	    game,
+	    network
+	);
+	Super = NSObject;
+    };
+    MBImageView = {
+	Actions = (
+	);
+	Outlets = (
+	    aqua
+	);
+	Super = NSImageView;
+    };
+    MBNetwork = {
+	Actions = (
+	);
+	Outlets = (
+	    game
+	);
+	Super = NSObject;
+    };
+    MBOS = {
+	Actions = (
+	);
+	Outlets = (
+	    ui
+	);
+	Super = NSObject;
+    };
+    MBScorelist = {
+	Actions = (
+	);
+	Outlets = (
+	    ui
+	);
+	Super = NSObject;
+    };
+    MBSpark = {
+	Actions = (
+	);
+	Outlets = (
+	    ui
+	);
+	Super = NSObject;
+    };
+    MBUI = {
+	Actions = (
+	);
+	Outlets = (
+	    aqua
+	);
+	Super = NSObject;
+    };
+}

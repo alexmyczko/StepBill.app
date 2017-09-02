@@ -1,0 +1,23 @@
+/* Dialog boxes */
+
+"newgame_dialog_str_title" = "New Game?";
+"newgame_dialog_str_msg" = "";
+"newgame_dialog_str_btn1" = "OK";
+"newgame_dialog_str_btn2" = "Cancel";
+
+"quit_dialog_str_title" = "Quit StepBill?";
+"quit_dialog_str_msg" = "";
+"quit_dialog_str_btn1" = "OK";
+"quit_dialog_str_btn2" = "Cancel";
+
+"pause_dialog_str_title" = "Game paused.";
+"pause_dialog_str_msg" = "Press Continue to continue.";
+"pause_dialog_str_btn1" = "Continue";
+
+"endgame_dialog_str_title" = "Game Over";
+"endgame_dialog_str_msg" = "Module StepBill has caused a segmentation fault\nat memory address 097E:F1A0.  Core dumped.\n\nWe apologize for the inconvenience.";
+"endgame_dialog_str_btn1" = "Nuts!";
+
+"score_dialog_str_title" = "Clear!";
+"score_dialog_str_msg" = "After Level %d:\nScore: %d";
+"score_dialog_str_btn1" = "Yeah!";

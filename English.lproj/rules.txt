@@ -1,0 +1,12 @@
+The Rules:
+
+xBill has been painstakingly designed and researched in order to make it as easy to use for the whole family as it is for little Sally. Years - nay - days of beta testing and  consulting with the cheapest of human interface designers have resulted in a game that is easy to use, yet nothing at all like a Macintosh.
+
+I.  Whack the Bills (click)
+II.  Pick up stolen OSes & return(drag)
+them to their respective computers
+III.  Drag the bucket to extinguish sparks
+IV.  Scoring is based on total uptime,
+with bonuses for killing Bills.
+
+As for the rest, you can probably figure it out.  We did, so it can't be too hard.

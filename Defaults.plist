@@ -1,0 +1,58 @@
+{
+  fieldsize = 400;
+  interval = 200;
+  transparency = 30;
+  scores = (
+    {
+      level = 10;
+      name = alex;
+      score = 2000;
+    },
+   {
+    level = 9;
+    name = rob;
+    score = 1800;
+   },
+  {
+    level = 8;
+    name = banlu;
+    score = 1600;
+  },
+  {
+    level = 7;
+    name = ishioka;
+    score = 1400;
+  },
+  {
+    level = 6;
+    name = brian;
+    score = 1200;
+  },
+ {
+   level = 5;
+   name = matias;
+   score = 1000;
+ },
+ {
+   level = 4;
+   name = sonia;
+   score = 800;
+ },
+ {
+   level = 3;
+   name = me;
+   score = 600;
+ },
+ {
+   level = 2;
+   name = me;
+   score = 400;
+ },
+ {
+   level = 1;
+   name = me;
+   score = 200;
+  }
+);
+ 
+}

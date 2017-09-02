@@ -1,0 +1,34 @@
+The rules and story windows now function correctly. And the drawing 
+looks better too. I've also got the Localizable.strings files fixed. 
+The method is this:
+
+iconv -f utf-16 -t utf-8 Localizable.strings > temp.strings
+
+and then from there you can use cvtenc to get the file into ascii 
+encoding with unicode escape sequences.
+
+cvtenv -EscapeOut YES temp.strings > Localizable.strings
+
+I used utf-8 because that is my system default, and it should be a 
+lossless conversion to go from utf-16 to utf-8. cvtenc by default 
+converts from your system's default encoding to ascii, and back. There 
+is an -Encoding switch for cvtenc that lets you use a different 
+encoding. running cvtenc like so:
+
+cvtenc -Encoding UTF-16 -EscapeOut YES Localizable.strings > 
+temp.strings
+
+should fix it in one step, but on my system this wouldn't work. I'm 
+not sure what the problem was.
+
+So, now there is Japanese. But only dialogs. The gorm file, rules.txt, 
+and story.txt would all need to be translated for it to be complete. I 
+may know someone who would be willing to do this. I'd have to check 
+first.
+
+If there is no desire to keep StepBill in sync with MacBill, the nib 
+files, MacBill.plist, MacBill.icns, and InfoPlist.strings files could 
+probably be removed. Some of those files are listed in the 
+GNUmakefile, and would have to be deleted from there as well.
+
+Rob

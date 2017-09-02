@@ -1,0 +1,272 @@
+{
+    FirstResponder = {
+	Actions = (
+	    "activateContextHelpMode:",
+	    "alignCenter:",
+	    "alignJustified:",
+	    "alignLeft:",
+	    "alignRight:",
+	    "arrangeInFront:",
+	    "cancel:",
+	    "capitalizeWord:",
+	    "changeColor:",
+	    "changeFont:",
+	    "checkSpelling:",
+	    "close:",
+	    "complete:",
+	    "copy:",
+	    "copyFont:",
+	    "copyRuler:",
+	    "cut:",
+	    "delete:",
+	    "deleteBackward:",
+	    "deleteForward:",
+	    "deleteToBeginningOfLine:",
+	    "deleteToBeginningOfParagraph:",
+	    "deleteToEndOfLine:",
+	    "deleteToEndOfParagraph:",
+	    "deleteToMark:",
+	    "deleteWordBackward:",
+	    "deleteWordForward:",
+	    "deminiaturize:",
+	    "deselectAll:",
+	    "fax:",
+	    "hide:",
+	    "hideOtherApplications:",
+	    "indent:",
+	    "loosenKerning:",
+	    "lowerBaseline:",
+	    "lowercaseWord:",
+	    "makeKeyAndOrderFront:",
+	    "miniaturize:",
+	    "miniaturizeAll:",
+	    "moveBackward:",
+	    "moveBackwardAndModifySelection:",
+	    "moveDown:",
+	    "moveDownAndModifySelection:",
+	    "moveForward:",
+	    "moveForwardAndModifySelection:",
+	    "moveLeft:",
+	    "moveRight:",
+	    "moveToBeginningOfDocument:",
+	    "moveToBeginningOfLine:",
+	    "moveToBeginningOfParagraph:",
+	    "moveToEndOfDocument:",
+	    "moveToEndOfLine:",
+	    "moveToEndOfParagraph:",
+	    "moveUp:",
+	    "moveUpAndModifySelection:",
+	    "moveWordBackward:",
+	    "moveWordBackwardAndModifySelection:",
+	    "moveWordForward:",
+	    "moveWordForwardAndModifySelection:",
+	    "newDocument:",
+	    "ok:",
+	    "openDocument:",
+	    "orderBack:",
+	    "orderFront:",
+	    "orderFrontColorPanel:",
+	    "orderFrontDataLinkPanel:",
+	    "orderFrontFontPanel:",
+	    "orderFrontHelpPanel:",
+	    "orderFrontStandardAboutPanel:",
+	    "orderFrontStandardInfoPanel:",
+	    "orderOut:",
+	    "pageDown:",
+	    "pageUp:",
+	    "paste:",
+	    "pasteAsPlainText:",
+	    "pasteAsRichText:",
+	    "pasteFont:",
+	    "pasteRuler:",
+	    "performClose:",
+	    "performMiniaturize:",
+	    "performZoom:",
+	    "print:",
+	    "raiseBaseline:",
+	    "revertDocumentToSaved:",
+	    "runPageLayout:",
+	    "runToolbarCustomizationPalette:",
+	    "saveAllDocuments:",
+	    "saveDocument:",
+	    "saveDocumentAs:",
+	    "saveDocumentTo:",
+	    "scrollLineDown:",
+	    "scrollLineUp:",
+	    "scrollPageDown:",
+	    "scrollPageUp:",
+	    "scrollViaScroller:",
+	    "selectAll:",
+	    "selectLine:",
+	    "selectNextKeyView:",
+	    "selectParagraph:",
+	    "selectPreviousKeyView:",
+	    "selectText:",
+	    "selectText:",
+	    "selectToMark:",
+	    "selectWord:",
+	    "showContextHelp:",
+	    "showGuessPanel:",
+	    "showHelp:",
+	    "showWindow:",
+	    "stop:",
+	    "subscript:",
+	    "superscript:",
+	    "swapWithMark:",
+	    "takeDoubleValueFrom:",
+	    "takeFloatValueFrom:",
+	    "takeIntValueFrom:",
+	    "takeObjectValueFrom:",
+	    "takeStringValueFrom:",
+	    "terminate:",
+	    "tightenKerning:",
+	    "toggle:",
+	    "toggleContinuousSpellChecking:",
+	    "toggleRuler:",
+	    "toggleToolbarShown:",
+	    "toggleTraditionalCharacterShape:",
+	    "transpose:",
+	    "transposeWords:",
+	    "turnOffKerning:",
+	    "turnOffLigatures:",
+	    "underline:",
+	    "unhide:",
+	    "unhideAllApplications:",
+	    "unscript:",
+	    "uppercaseWord:",
+	    "useAllLigatures:",
+	    "useStandardKerning:",
+	    "useStandardLigatures:",
+	    "yank:",
+	    "zoom:",
+	    "about:",
+	    "high_score:",
+	    "modalCancel:",
+	    "modalOk:",
+	    "new_game:",
+	    "pause_game:",
+	    "pref:",
+	    "quit_game:",
+	    "rules:",
+	    "story:",
+	    "warp_level:"
+	);
+	Super = NSObject;
+    };
+    MBAqua = {
+	Actions = (
+	    "about:",
+	    "high_score:",
+	    "modalCancel:",
+	    "modalOk:",
+	    "new_game:",
+	    "pause_game:",
+	    "pref:",
+	    "quit_game:",
+	    "rules:",
+	    "story:",
+	    "warp_level:"
+	);
+	Outlets = (
+	    about,
+	    entry,
+	    game,
+	    highscore,
+	    menu_pause,
+	    rules,
+	    slider_size,
+	    slider_timer,
+	    slider_trans,
+	    story,
+	    text_size,
+	    text_timer,
+	    text_trans,
+	    ui,
+	    view,
+	    warp,
+	    story_tv,
+	    rules_tv
+	);
+	Super = NSObject;
+    };
+    MBBucket = {
+	Actions = (
+	);
+	Outlets = (
+	    network,
+	    ui
+	);
+	Super = NSObject;
+    };
+    MBGame = {
+	Actions = (
+	);
+	Outlets = (
+	    bucket,
+	    horde,
+	    network,
+	    os,
+	    scorelist,
+	    spark,
+	    ui
+	);
+	Super = NSObject;
+    };
+    MBHorde = {
+	Actions = (
+	);
+	Outlets = (
+	    game,
+	    network
+	);
+	Super = NSObject;
+    };
+    MBImageView = {
+	Actions = (
+	);
+	Outlets = (
+	    aqua
+	);
+	Super = NSImageView;
+    };
+    MBNetwork = {
+	Actions = (
+	);
+	Outlets = (
+	    game
+	);
+	Super = NSObject;
+    };
+    MBOS = {
+	Actions = (
+	);
+	Outlets = (
+	    ui
+	);
+	Super = NSObject;
+    };
+    MBScorelist = {
+	Actions = (
+	);
+	Outlets = (
+	    ui
+	);
+	Super = NSObject;
+    };
+    MBSpark = {
+	Actions = (
+	);
+	Outlets = (
+	    ui
+	);
+	Super = NSObject;
+    };
+    MBUI = {
+	Actions = (
+	);
+	Outlets = (
+	    aqua
+	);
+	Super = NSObject;
+    };
+}

@@ -1,0 +1,10 @@
+{
+	ApplicationName = "StepBill";
+	ApplicationDescription = "StepBill - XBill for GNUstep (based on MacBill)";
+	ApplicationRelease = "2.4 - 01/08/2005";
+	ApplicationURL = "http://www.aiei.ch/gnustep/stepbill/";
+	Authors = ("Rob Burns <rburns@softhome.net>,\nBanlu Kemiyatorn <id@project-ile.net>,\nAlex Myczko <alex@aiei.ch>");
+	Copyright = "Copyright (c) 2004 Rob Burns, Alex Myczko, Banlu Kemiyatorn";
+	CopyrightDescription = "This program is released under the GNU GPL";
+	NSIcon = "icon.tiff";
+}

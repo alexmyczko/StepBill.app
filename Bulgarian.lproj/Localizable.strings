@@ -1,0 +1,25 @@
+/* Translated by Yavor Doganov <yavor@doganov.org> */
+
+/* Dialog boxes */
+
+"newgame_dialog_str_title" = "Нова игра?";
+"newgame_dialog_str_msg" = "";
+"newgame_dialog_str_btn1" = "Да";
+"newgame_dialog_str_btn2" = "Отказ";
+
+"quit_dialog_str_title" = "Изход от StepBill?";
+"quit_dialog_str_msg" = "";
+"quit_dialog_str_btn1" = "Да";
+"quit_dialog_str_btn2" = "Отказ";
+
+"pause_dialog_str_title" = "Играта е спряна.";
+"pause_dialog_str_msg" = "Натиснете 'Продължаване'.";
+"pause_dialog_str_btn1" = "Продължаване";
+
+"endgame_dialog_str_title" = "Край на играта";
+"endgame_dialog_str_msg" = "Модулът StepBill причини грешка при заделянето на\nпамет за адрес 097E:F1A0.  Ядрото е отхвърлено.\n\nИзвиняваме се за неудобството.";
+"endgame_dialog_str_btn1" = "Глупости!";
+
+"score_dialog_str_title" = "Чисто!";
+"score_dialog_str_msg" = "След ниво %d:\nТочки: %d";
+"score_dialog_str_btn1" = "О, да!";

@@ -1,0 +1,8 @@
+2.4	Added Bulgarian from Yavor Doganov
+2.3	Fixed default preferences (delay, highscore)
+2.2	New icons for Hurd, RedHat (Debian Swirl), new logo, about window
+	Patches from Rob Burns (Gorm connections, fixes for the sprites)
+	Patches from Banlu Kemiyatorn (Gorm)
+	Patches from Fabien Vallon
+	Works perfect in GNUstep now
+2.1	Fork from MacBill-2.1 (Ishioka Hiroshi)
